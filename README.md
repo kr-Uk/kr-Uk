@@ -30,15 +30,17 @@ Java와 Spring Boot로 도메인과 API를 설계하고, 데이터베이스부�
 
 `Java 17` `Spring Boot` `QueryDSL` `PostgreSQL` `Prometheus`
 
-### [PizzaEatHo](https://github.com/kr-Uk/pizzaeatho) — 피자 주문·커스터마이징 모바일 앱
+### [ITTO](https://github.com/kr-Uk/itto-backend) — 위치 기반 인연 연결 서비스
 
-- Flutter 프런트엔드를 담당해 주문 커스터마이징, 주문 조회, 푸시 알림, 지도·위치, 리뷰 화면을 구현했습니다.
-- 모바일 클라이언트에서 Spring Boot REST API를 연동한 경험을 담았습니다.
+- 기획자 1명과 개발자 1명으로 진행해 Flutter 앱, Spring Boot 백엔드, 배포 환경을 구현했습니다.
+- Firebase 중심 구조를 백엔드 중심 구조로 전환하고, H3와 Redis로 위치 후보 탐색 범위를 줄였습니다.
+- 20명 기준 후보 탐색 쿼리를 약 400회에서 2회로 줄였습니다.
 
-`Flutter` `Dart` `Provider` `Firebase`
+`Java 21` `Spring Boot` `Flutter` `H3` `Redis` `Docker`
 
 ## 더 보기
 
-- [ITTO Frontend](https://github.com/kr-Uk/itto-frontend) · [Backend](https://github.com/kr-Uk/itto-backend) · [Server](https://github.com/kr-Uk/itto-server)
+- [ITTO Frontend](https://github.com/kr-Uk/itto-frontend) · [Server](https://github.com/kr-Uk/itto-server)
+- [PizzaEatHo](https://github.com/kr-Uk/pizzaeatho) — Flutter 기반 피자 주문·커스터마이징 앱
 - [알고리즘 기록 — Java](https://github.com/kr-Uk/boj-java) · [Python](https://github.com/kr-Uk/boj-python)
 
